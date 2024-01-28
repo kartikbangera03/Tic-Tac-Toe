@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#controls{
+    margin-top: 25px;
+}
+#gameboard{
+    /* border: 1px solid grey; */
+    width: 620px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+
+}
+
+.square{
+    /* display: flex;
+    flex-wrap: wrap;
+    float: left; */
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 32%;
+    text-align: center;
+    font-size: 180px;
+}
+#message{
+    font-size: 50px ;
+    width: 620px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
